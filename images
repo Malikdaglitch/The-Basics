@@ -1,0 +1,13 @@
+01_Site/
+  index.html
+  about.html
+  images/
+    park.jpg
+    trail.jpg
+    <img src="images/park.jpg" alt="A California trail that shows how diffrent nature could be I loved it.">
+    <alt="A trail with woods and the nature at it's peak everyone going down and exploring and I walked my dogs their."
+    <images/>
+    <title>California trail parks</title>
+    <link rel="icon href="images/favicon.png">
+    <img src="images/park.jpg" alt="..." width="600" height="400">
+
