@@ -11,3 +11,20 @@
     <link rel="icon href="images/favicon.png">
     <img src="images/park.jpg" alt="..." width="600" height="400">
 
+<table>
+  <thead>
+    <tr>
+      <th>California Trail</th>
+      <th>1200,1500</th>
+      <th>No entry fee or user fees</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>California Trail</td>
+      <td>Trail Center: Wednesday – Sunday, 8:30 a.m. – 5:00 p.m.</td>
+      <td>Free</td>
+    </tr>
+  </tbody>
+</table>
+<tb></tb>
