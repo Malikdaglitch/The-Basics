@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="turkey-run.html">Turkey Run</a></li>
+  <li><a href="about.html">About me</a></li>
+</ul>
+<ul>
+  <li>Rugged
+    <ul>
+      <li>Trail 3</li>
+    </ul>
+  </li>
+</ul>    
+
 
 <head>
 <link rel="icon" href="images/favicon.png">    
