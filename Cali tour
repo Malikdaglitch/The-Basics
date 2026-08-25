@@ -19,6 +19,16 @@
 </head>
 <body>
 
+    <a href="#credits">Skip to the image credits</a>
+
+<div id="credits">
+  <h2>Image credits</h2>
+
+  <div class="section" id="parks">
+  <h2>The parks, side by side</h2>
+  <table>...</table>
+</div>
+
 
 
 
