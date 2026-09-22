@@ -3,12 +3,44 @@ p{
     background-color: hsl(266, 98%, 51%);
 }
 
-h1{
-    color: #000000
-    background-color:rgb(155, 200, 150)
+:root {
+  --dark:       #14532d;   /* headings, header, links */
+  --light:      #eef4ee;   /* tinted boxes, footer */
+  --background: #fdfdfb;   /* the page */
+
+  header  { background-color: var(--dark); color: #ffffff; }
+header a { color: #ffffff; }
+footer  { background-color: var(--light); }
+blockquote { background-color: rgba(20, 83, 45, 0.08); }
+
+body {
+  background-color: var(--dark);      /* while it loads, and behind it */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpY7WBOHUhAdi7oVStru38ikSroXV-rjjFJJ1pVYlcfQ&s=10");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-h2{
-    color-scheme:red ;
-    border-color: rgb(7, 135, 247);
+main { background-color: var(--background); }
+
+body{
+    background-color: #14532d;
+    color: rgb(159, 145, 221);
 }
+
+header { padding: 1.5rem 2rem; }   /* top-and-bottom, then left-and-right */
+main   { padding: 1.5rem 2rem; }
+footer { padding: 1rem 2rem; }
+body   { margin: 0; padding: 1.5rem; }   /* the browser's 8px margin, swapped for padding */
+
+.intro     { border: 1px solid var(--line); }        /* width  style  colour */
+blockquote { border-left: 6px solid var(--dark); }   /* one side only */
+h2         { border-bottom: 1px solid var(--line); }  /* under every heading */
+
+h2         { margin-top: 2rem; padding-bottom: .25rem; }
+blockquote { margin: 1.5rem 0; padding: 1rem 1.5rem; }
+nav ul     { margin: 0; padding: 0; }
+
+p  { margin-bottom: 3rem; }
+h2 { margin-top: 3rem; }
